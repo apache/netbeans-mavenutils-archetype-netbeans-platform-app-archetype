@@ -45,7 +45,7 @@ under the License.
     </issueManagement>
     <scm>
         <connection>scm:git:https://gitbox.apache.org/repos/asf/netbeans-mavenutils-archetype-netbeans-platform-app-archetype.git</connection>
-        <developerConnection>scm:git:gitbox.apache.org/repos/asf/netbeans-mavenutils-archetype-netbeans-platform-app-archetype.git</developerConnection>
+        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/netbeans-mavenutils-archetype-netbeans-platform-app-archetype.git</developerConnection>
         <url>https://github.com/apache/netbeans-mavenutils-archetype-netbeans-platform-app-archetype</url>
         <tag>master</tag>
     </scm>
