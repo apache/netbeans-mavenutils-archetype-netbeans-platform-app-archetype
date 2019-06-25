@@ -16,6 +16,9 @@
         Repository hosting NetBeans modules, especially APIs.
         Versions are based on IDE releases, e.g.: RELEASE691
         To create your own repository, use: nbm:populate-repository
+        
+        If you use Apache NetBeans starting with Apache NetBeans 9.0 
+        you can remove the netbeans repository section
         -->
         <repository>
             <id>netbeans</id>
@@ -28,9 +31,9 @@
         <pluginManagement>
             <plugins>
                 <plugin>
-                    <groupId>org.codehaus.mojo</groupId>
+                    <groupId>org.apache.netbeans.utilities</groupId>
                     <artifactId>nbm-maven-plugin</artifactId>
-                    <version>4.1</version>
+                    <version>4.2</version>
                     <extensions>true</extensions>
                     <configuration>
                         <brandingToken>${D}{brandingToken}</brandingToken>
@@ -41,16 +44,16 @@
                     <!-- NetBeans 6.9+ requires JDK 6, starting NetBeans 7.4 source 1.7 is required -->
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>2.5.1</version>
+                    <version>3.8.1</version>
                     <configuration>
-                        <source>1.7</source>
-                        <target>1.7</target>
+                        <source>1.8</source>
+                        <target>1.8</target>
                     </configuration>
                 </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>2.4</version>
+                <version>3.1.2</version>
             </plugin>
             </plugins>
         </pluginManagement>
