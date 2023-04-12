@@ -38,7 +38,13 @@ under the License.
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
             <distribution>repo</distribution>
         </license>
-    </licenses>   
+    </licenses>
+    <distributionManagement>
+        <site>
+            <id>netbeans.bits</id>
+            <url>https://bits.netbeans.org/mavenutilities/archetypes/netbeans-platform-app-archetype</url>
+        </site>
+    </distributionManagement>
     <issueManagement>
         <system>jira</system>
         <url>https://issues.apache.org/jira/projects/NETBEANS</url>
