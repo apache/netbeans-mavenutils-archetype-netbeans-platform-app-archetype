@@ -23,15 +23,16 @@ under the License.
     <parent>
         <groupId>org.apache.netbeans</groupId>
         <artifactId>netbeans-parent</artifactId>
-        <version>3</version>
+        <version>4</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.apache.netbeans.archetypes</groupId>
     <artifactId>netbeans-platform-app-archetype</artifactId>
     <version>1.24-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
-    <name>Apache Netbeans Maven Utilties - NetBeans Platform Application Archetype</name>
-    <description>Archetype for sample application based on NetBeans Platform. Creates parent POM with branding and empty NBM project.</description>
+    <name>Apache NetBeans Platform Application Archetype</name>
+    <description>Maven Archetype for applications based on the NetBeans Platform. Creates parent POM with branding and empty NBM project.</description>
+
     <licenses>
         <license>
             <name>Apache License 2</name>
@@ -39,22 +40,26 @@ under the License.
             <distribution>repo</distribution>
         </license>
     </licenses>
+
     <distributionManagement>
         <site>
             <id>netbeans.bits</id>
             <url>https://bits.netbeans.org/mavenutilities/archetypes/netbeans-platform-app-archetype</url>
         </site>
     </distributionManagement>
+
     <issueManagement>
-        <system>jira</system>
-        <url>https://issues.apache.org/jira/projects/NETBEANS</url>
+        <system>github</system>
+        <url>https://github.com/apache/netbeans/issues</url>
     </issueManagement>
+ 
     <scm>
         <connection>scm:git:https://gitbox.apache.org/repos/asf/netbeans-mavenutils-archetype-netbeans-platform-app-archetype.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/netbeans-mavenutils-archetype-netbeans-platform-app-archetype.git</developerConnection>
         <url>https://github.com/apache/netbeans-mavenutils-archetype-netbeans-platform-app-archetype</url>
         <tag>master</tag>
     </scm>
+
     <build>
         <pluginManagement>
             <plugins>
@@ -72,12 +77,13 @@ under the License.
             </extension>
         </extensions>
     </build>
+
     <reporting>
         <plugins>
             <plugin>
                 <groupId>org.apache.rat</groupId>
                 <artifactId>apache-rat-plugin</artifactId>
-                <version>0.15</version>
+                <version>0.16.1</version>
                 <configuration>
                     <excludes>
                         <exclude>src/main/resources/archetype-resources/**</exclude>
@@ -86,4 +92,5 @@ under the License.
             </plugin>
         </plugins>
     </reporting>
+
 </project>
