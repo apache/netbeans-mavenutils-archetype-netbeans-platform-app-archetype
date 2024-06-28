@@ -15,15 +15,15 @@
   <name>${artifactId}-branding</name>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.netbeans.api</groupId>
-      <artifactId>org-netbeans-api-annotations-common</artifactId>
-      <version>${D}{netbeans.version}</version>
-    </dependency>
+      <dependency>
+          <groupId>org.netbeans.api</groupId>
+          <artifactId>org-netbeans-api-annotations-common</artifactId>
+          <version>${D}{netbeans.version}</version>
+      </dependency>
   </dependencies>
 
   <build>

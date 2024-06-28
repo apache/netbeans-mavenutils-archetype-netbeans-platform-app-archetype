@@ -56,9 +56,10 @@ under the License.
             </includes>
         </fileSet>
     </fileSets>
-  <requiredProperties>
-    <requiredProperty key="netbeansVersion">
-      <defaultValue>RELEASE110</defaultValue>
-    </requiredProperty>
-  </requiredProperties>
+    <requiredProperties>
+        <requiredProperty key="netbeansVersion">
+            <defaultValue>RELEASE220</defaultValue>
+        </requiredProperty>
+    </requiredProperties>
 </archetype-descriptor>
+
