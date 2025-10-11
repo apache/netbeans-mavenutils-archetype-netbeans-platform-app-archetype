@@ -18,7 +18,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <all.clusters>${D}{project.build.directory}/${D}{brandingToken}</all.clusters>
         <jpms-flags>
-            -Djava.security.manager=allow
             --add-opens=java.base/java.net=ALL-UNNAMED
             <!-- add more "add opens" if needed -->
         </jpms-flags>
