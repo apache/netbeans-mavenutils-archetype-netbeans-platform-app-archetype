@@ -18,11 +18,8 @@
 version: 2
 updates:
   - package-ecosystem: "maven"
+    # note: dependabot can't update archetype template files (dependabot-core/#2144)
     directory: "/"
     target-branch: "master"
     schedule:
       interval: "daily"
-  - package-ecosystem: "maven"
-    directory: "/src/main/resources/archetype-resources"
-    schedule:
-      interval: "daily"    

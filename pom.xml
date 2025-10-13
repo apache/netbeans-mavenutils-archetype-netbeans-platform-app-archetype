@@ -23,7 +23,7 @@ under the License.
     <parent>
         <groupId>org.apache.netbeans</groupId>
         <artifactId>netbeans-parent</artifactId>
-        <version>4</version>
+        <version>5</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.apache.netbeans.archetypes</groupId>
@@ -65,7 +65,7 @@ under the License.
             <plugins>
                 <plugin>
                     <artifactId>maven-archetype-plugin</artifactId>
-                    <version>3.2.1</version>
+                    <version>3.4.0</version>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -73,7 +73,7 @@ under the License.
             <extension>
                 <groupId>org.apache.maven.archetype</groupId>
                 <artifactId>archetype-packaging</artifactId>
-                <version>3.2.1</version>
+                <version>3.4.0</version>
             </extension>
         </extensions>
     </build>
