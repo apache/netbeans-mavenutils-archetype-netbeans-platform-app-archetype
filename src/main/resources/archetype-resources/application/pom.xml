@@ -17,9 +17,13 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <all.clusters>${D}{project.build.directory}/${D}{brandingToken}</all.clusters>
+
+        <netbeans.run.params.local/>
+        <netbeans.run.params.ide/>
+        <netbeans.run.params>${netbeans.run.params.ide} ${netbeans.run.params.local} -J--add-opens=java.base/java.net=ALL-UNNAMED</netbeans.run.params>
         <jpms-flags>
             --add-opens=java.base/java.net=ALL-UNNAMED
-            <!-- add more "add opens" if needed -->
+            <!-- add more "add opens" if needed. Note that it must be added to netbeans.run.params if needed at runtime -->
         </jpms-flags>
     </properties>
 
